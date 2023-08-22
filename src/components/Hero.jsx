@@ -14,14 +14,14 @@ const Hero = () => {
     <div className="text-[#6e47cf] overflow-hidden">
       <div className="bg-image w-full h-screen mr-auto text-center flex flex-col justify-center">
         <h1
-          className="lg:text-6xl absolute top-[9vw] md:text-4xl sm:text-3xl font-black sm:justify-start md:justify-start w-[950px] md:text-center sm:text-left sm:ml-1 xsm:text-left xsm:ml-6 xsm:text-3xl xsm:mt-3 "
+          className="lg:text-6xl absolute top-[9vw] left-[7vw] md:text-4xl sm:text-3xl font-black sm:justify-start md:justify-start md:text-center sm:text-left sm:ml-1 xsm:text-left xsm:ml-6 xsm:text-3xl xsm:mt-8"
           style={{ whiteSpace: "nowrap" }}
         >
           Voordelig <span className="text-[#3e257c] inline">busjes huren</span>
           <br className="xsm:hidden" />
         </h1>
 
-        <div class="bg-white w-[430px]  mr-auto ml-[140px] mt-[16vw] rounded-lg shadow-xl border-2 p-5">
+        <div class="bg-white w-[430px] mr-auto ml-[140px] max-[615px]:mx-auto max-[434px]:w-[300px] max-[300px]:w-[250px] mt-[16vh] max-[375px]:mt-[28vh] rounded-lg shadow-xl border-2 p-5">
           <div class="py-2 ">
             <Link
               to="/Persoons-busjes-huren"
@@ -91,7 +91,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[1068px] m-auto h-[50px] mt-[6rem] text-center flex flex-col md:flex-row md:justify-center items-center ">
+      <div className="h-[50px] max-[638px]:h-[120px] mt-[6rem] text-center flex flex-col justify-evenly md:flex-row md:justify-center items-center mr-[2.7rem] max-[300px]:mt-[10rem]">
         <div className="w-full md:w-1/3 flex justify-center items-center space-x-2 px-2">
           <AiOutlineCheckCircle size={20} className="ml-8 text-[#13b426]" />
           <div className="flex flex-col">
@@ -117,7 +117,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[1135px] mx-auto h-[90px] border-b border-gray-300 "></div>
+      <div className="w-[58vw] mx-auto h-[90px] border-b border-gray-300 "></div>
     </div>
   );
 };

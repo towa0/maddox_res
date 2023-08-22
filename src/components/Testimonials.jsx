@@ -40,7 +40,7 @@ const Testimonials = () => {
   return (
     <div className="container mx-auto mb-[5vw]">
       <div className="w-full border-b border-gray-300"></div>
-      <h2 className="text-3xl font-bold text-center my-8 text-[#6e47cf]">Klantenbeoordelingen</h2>
+      <h2 className="text-3xl font-bold text-center my-8 text-[#6e47cf] max-[300px]:text-xl">Klantenbeoordelingen</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="p-4 h-[180px] rounded-lg shadow-xl border-2 transform hover:scale-105 transition-transform">

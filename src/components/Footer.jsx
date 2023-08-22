@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#3e257c] py-16">
+    <div className="bg-[#3e257c] py-16 flex">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-400">
         <div>
           <h6 className="font-medium text-white text-lg mb-4">Persoons Busje</h6>
@@ -16,7 +16,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
         <div>
           <h6 className="font-medium text-white text-lg mb-4">Belangrijke Pagina's</h6>
           <ul>

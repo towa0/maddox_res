@@ -16,7 +16,7 @@ const Newsletter = () => {
               className="object-cover w-full h-full"
             />
             <div className="absolute inset-0 bg-black opacity-20"></div>
-            <p className="absolute bottom-8 left-8 right-8 text-white text-2xl font-bold">
+            <p className="absolute bottom-8 left-8 right-8 text-white text-lg font-bold max-[350px]:text-[12px] max-[350px]:bottom-3">
               Handige tips voor aanstaande moeders: ontdek wat vergoed wordt bij
               zwangerschap en bevalling
             </p>
@@ -32,7 +32,7 @@ const Newsletter = () => {
                 className="object-cover w-full h-full"
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
-              <p className="absolute bottom-8 left-8 right-8 text-white text-lg font-bold">
+              <p className="absolute bottom-8 left-8 right-8 text-white text-lg font-bold max-[350px]:text-[15px]">
                 Hoe lang duurt het afsluiten van een hypotheek?
               </p>
               <p className="absolute bottom-0 left-8 text-white text-sm">
@@ -46,7 +46,7 @@ const Newsletter = () => {
                 className="object-cover w-full h-full"
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
-              <p className="absolute bottom-8 left-8 right-8 text-white text-lg font-bold">
+              <p className="absolute bottom-8 left-8 right-8 text-white text-lg font-bold max-[350px]:text-[15px]">
                 Hoe lang duurt het afsluiten van een hypotheek?
               </p>
               <p className="absolute bottom-0 left-8 text-white text-sm">
@@ -61,7 +61,7 @@ const Newsletter = () => {
           </button>
         </div>
       </div>
-      <div className="w-[1135px] mx-auto h-[100px] border-b border-gray-300 "></div>
+      <div className="w-[58vw] mx-auto h-[100px] border-b border-gray-300"></div>
     </div>
   );
 };

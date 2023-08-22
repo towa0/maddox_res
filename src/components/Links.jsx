@@ -3,9 +3,9 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Links = () => {
   return (
-    <div className="max-w-[1300px] h-[700px] flex justify-center mx-[16vw] overflow-x text-[#6e47cf]">
+    <div class="h-[700px] flex flex-col sm:flex-row max-[638px]:h-[1100px] max-[638px]:h-[1300px] max-[300px]:h-[1450px] justify-center mx-[16vw] overflow-x text-[#6e47cf]">
       {/* Column 1 */}
-      <div className="w-1/3">
+      <div class="w-full sm:w-1/3 pb-4 sm:pr-4">
         <h2 className="text-2xl font-bold pb-3">Provincies</h2>
         <ul className="listItems">
           <li className="flex items-center ml-5">
@@ -72,7 +72,7 @@ const Links = () => {
       </div>
 
       {/* Column 2 */}
-      <div className="w-1/3 mr-4">
+      <div class="w-full sm:w-1/3 pb-4 sm:px-2">
         <h2 className="text-2xl font-bold pb-3">Persoons Busje Huren</h2>
         <ul className="listItems">
           <li className="flex items-center ml-5">
@@ -114,7 +114,7 @@ const Links = () => {
       </div>
 
       {/* Column 3 */}
-      <div className="w-1/3 mr-4">
+      <div class="w-full sm:w-1/3 pb-4 sm:pl-4">
         <h2 className="text-2xl font-bold pb-3">Algemeen</h2>
         <ul className="listItems">
           <li className="flex items-center ml-5">
