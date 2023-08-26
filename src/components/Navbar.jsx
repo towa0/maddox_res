@@ -18,12 +18,11 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-[100px] w-full m-auto px-4 text-[#6e47cf] absolute z-20 bg-transparent">
       <div className="flex items-center justify-between">
-       <Link to="/">
+        <Link to="/">
           <img
             src={PersoonsBusje}
             alt="PersoonsBusjeHurenLogo"
             className="h-12 cursor-pointer"
-            
           />
         </Link>
       </div>
@@ -39,12 +38,14 @@ const Navbar = () => {
         {/* NAVBAR BUTTON "PRODUCTEN" OPEN */}
         {isOpen && (
           <ul className="absolute z-10 p-10 bg-white rounded-md shadow-lg top-14 transform left-40 translate-x-[-170px] w-[700px] h-[400px]">
-            <li className="px-6 py-5 w-1/2 text-lg text-[#1f232e] hover:bg-purple-200 cursor-pointer rounded-md">
-              <div className="flex items-center">
-                <Link to="/Persoons-busjes-huren">Persoonsbusje huren</Link>
-                <BiChevronRight size={20} className="ml-auto" />
-              </div>
-            </li>
+            <Link to="/Persoons-busjes-huren">
+              <li className="px-6 py-5 w-1/2 text-lg text-[#1f232e] hover:bg-purple-200 cursor-pointer rounded-md">
+                <div className="flex items-center">
+                  Persoonsbusje huren
+                  <BiChevronRight size={20} className="ml-auto" />
+                </div>
+              </li>
+            </Link>
             <li className="px-6 py-5 my-2 w-1/2 text-lg text-[#1f232e] hover:bg-purple-200 cursor-pointer rounded-md">
               <div className="flex items-center">
                 <span>Volkswagen busje</span>
