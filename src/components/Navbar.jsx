@@ -18,12 +18,11 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-[100px] w-full m-auto px-4 text-[#6e47cf] absolute z-20 bg-transparent">
       <div className="flex items-center justify-between">
-       <Link to="/">
+        <Link to="/">
           <img
             src={PersoonsBusje}
             alt="PersoonsBusjeHurenLogo"
             className="h-12 cursor-pointer"
-            
           />
         </Link>
       </div>
@@ -121,7 +120,7 @@ const Navbar = () => {
         </li>
         <li className="p-3 hover:text-[#221839] hover:underline cursor-pointer  xl:ml-0 xl:mr-8">
           <div className="flex items-center">
-            <span className="hidden xl:inline mr-1">Contact</span>
+            <span className="hidden xl:inline mr-1">Blogs</span>
           </div>
         </li>
       </ul>

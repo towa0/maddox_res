@@ -7,18 +7,22 @@ const busSchema = new mongoose.Schema({
   specs: {
     engine: String,
     stoelen: String,
-    location: String,
+    adres: String,
     gearType: String,
     aantalDeuren: String,
     aircoBool: String,
     extras: [String],
     laadcapiciteit: String,
-    color: String,
     trekhaak: String,
-    verzekering: String,
+    provincie: String,
   },
-  image: String,
-});
+  LinkjesFoto: String,
+  MapsImgs: String,
+  MapsLinks: String,
+  AffiliateLink: String,
+  Partner: String
+
+}, { collection: 'busjes' });
 
 const Bus = mongoose.model("Bus", busSchema);
 

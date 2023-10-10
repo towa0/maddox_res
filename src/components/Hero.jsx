@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BiChevronRight } from "react-icons/bi";
 import { AiOutlineCheckCircle } from "react-icons/ai";
-import VHicon from "../assets/verhuiswagenIcon.png";
 import NPicon from "../assets/9persoonsBusjeHuren.jpg";
 import VWicon from "../assets/volkwagenBusjeIcon.jpg";
 import BBicon from "../assets/bestelBusjeIcon.jpg";
@@ -14,14 +13,14 @@ const Hero = () => {
     <div className="text-[#6e47cf] overflow-hidden">
       <div className="bg-image w-full h-screen mr-auto text-center flex flex-col justify-center">
         <h1
-          className="lg:text-6xl absolute top-[9vw] left-[7vw] md:text-4xl sm:text-3xl font-black sm:justify-start md:justify-start md:text-center sm:text-left sm:ml-1 xsm:text-left xsm:ml-6 xsm:text-3xl xsm:mt-8"
+          className="lg:text-6xl max-[375px]:mt-16 md:text-4xl sm:text-3xl font-black sm:justify-start md:justify-start text-center ml-[7vw] sm:text-left xsm:text-3xl xsm:mt-8"
           style={{ whiteSpace: "nowrap" }}
         >
           Voordelig <span className="text-[#3e257c] inline">busjes huren</span>
           <br className="xsm:hidden" />
         </h1>
 
-        <div class="bg-white w-[430px] mr-auto ml-[140px] max-[615px]:mx-auto max-[434px]:w-[300px] max-[300px]:w-[250px] mt-[16vh] max-[375px]:mt-[28vh] rounded-lg shadow-xl border-2 p-5">
+        <div class="bg-white w-[430px] mr-auto ml-[140px] max-[615px]:mx-auto max-[434px]:w-[300px] max-[300px]:w-[250px] mt-8 rounded-lg shadow-xl border-2 p-5">
           <div class="py-2 ">
             <Link
               to="/Persoons-busjes-huren"
